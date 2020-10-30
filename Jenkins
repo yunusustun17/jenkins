@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage("test run"){
 			steps{
-				echo "hello world"
+				bat "mkdir C:\\Users\\sge_d\\Desktop\\test"
 			}
 		}
 	}
