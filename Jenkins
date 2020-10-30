@@ -1,9 +1,9 @@
 pipeline{
 	agent any
 	stages{
-		stage("test run"){
+	stage("test run"){
 			steps{
-				bat "mkdir C:\\Users\\sge_d\\Desktop\\test"
+				bat "python test.py"
 			}
 		}
 	}
