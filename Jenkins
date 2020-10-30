@@ -1,0 +1,10 @@
+pipeline{
+	agent any
+	stages{
+		stage("test run"){
+			steps{
+				bat "dist\test.exe"
+			}
+		}
+	}
+}
