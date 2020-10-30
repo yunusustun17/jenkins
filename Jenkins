@@ -3,7 +3,7 @@ pipeline{
 	stages{
 	stage("test run"){
 			steps{
-				bat "python test.py"
+				bat "C:\\python\\python.exe test.py"
 			}
 		}
 	}
