@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 	stages{
-	stage("test run"){
+		stage("test run"){
 			steps{
 				bat "C:\\python\\python.exe test.py"
 			}
